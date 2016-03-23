@@ -1,3 +1,21 @@
+<!-- 
+*  
+* SNIPPET: logValue 
+* 
+* Sometimes when debugging you need to log the value 
+* of things -- A LOT of things.  This snippet allows you 
+* to log the value of whatever you want, along with the 
+* string representation of whatever it is you're logging.  
+* 
+* For instance: 
+* 	console.log("myBuggyVariable", myBuggyVariable) //==> myBuggyVariable: 32 
+* 
+* The additional tab placement is for prefixing the string 
+* representation of the variable/operation with some kind 
+* of note or tag. 
+* 
+* -->
+
 <snippet>
 	<content><![CDATA[
 console.log("${2:}${1:/* Item to log... */}:", $1); 
