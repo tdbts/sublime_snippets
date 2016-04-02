@@ -1,0 +1,22 @@
+<!--  
+* 
+* SNIPPET: returns 
+* 
+* This snippet is good for when you want to make a comment 
+* that displays the value returned by some function.  
+* 
+* For instance: 
+* 	const myObj = { myProp: 32 }; 
+* 	myObj.myProp // => 32 
+*
+* -->
+
+<snippet>
+	<content><![CDATA[
+// => ${1: /* Returned Value */ }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>returns</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
