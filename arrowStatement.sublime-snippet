@@ -1,0 +1,21 @@
+<!--  
+* 
+* SNIPPET: arrowStatement 
+* 
+* For when you need to create an arrowFunction that you know 
+* will require a block, as well as assignment to a variable. 
+*
+* -->
+
+<snippet>
+	<content><![CDATA[
+const ${1:/* Function Name */} = ${2:/* Arguments */} => {
+	${3:/* Code goes here... */}
+};
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>arrowStatement</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
