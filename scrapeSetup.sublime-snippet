@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+var request = require('request'), 
+	cheerio = require('cheerio'), 
+	async = require('async'), 
+	_slice = Array.prototype.slice;
+
+request(${1:/* URL goes here... */}, function (err, resp, body) {
+	
+	${2:/* Hacking happens here... */}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scrapeSetup</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
