@@ -1,0 +1,22 @@
+<!-- 
+* 
+* SNIPPET: describe 
+* 
+* Generates the describe() call used within the Mocha testing 
+* environment.  This is the ES6 version.  
+* 
+* -->
+
+<snippet>
+	<content><![CDATA[
+describe(${1:/* Unit Under Test */}, () => {
+	
+	${2:/* Write Tests Here */}
+
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>describe</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
